@@ -1,0 +1,162 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background: #212121;
+}
+.topnavbox{
+	background: #212121;
+}
+.back{
+	width: 100%;
+	height: 380px;
+	background: url(../images/back-news.jpg) no-repeat center;
+}
+.section{
+	background: #212121;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 0 5%;
+}
+.sec2-title{
+	width: 100%;
+	height: auto;
+	margin-top:100px;
+}
+.sec2-left{
+	width: 10%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+.sec2-left p:nth-child(2){
+	font-size: 15px;
+	color: #B4B4B4;
+	margin-top: 5px
+}
+.sec2-left .sec2-left-title{
+	color: #fff;
+	font-size: 26px;
+}
+.sec2-right{
+	width: 25%;
+	height: 30px;
+	float: right;
+}
+.sec2-right li{
+	float: left;
+	line-height: 30px;
+	position: relative;
+}
+.sec2-right li span{
+	display: block;
+	width: 0px;
+	height: 1px;
+	background: #A8A8A8;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition:all 1s ease;
+}
+.sec2-right li:hover span{
+	width: 100%;
+}
+.sec2-right li a{
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 14px;
+}
+.sec2-right .mid{
+	padding: 0 30px;
+	color: #4C4C3B;
+}
+.sec2-content{
+	width: 95%;
+	margin: 0 5%;
+	height: 280px;
+	margin: 20px 0;
+	overflow: hidden;
+	position: relative;
+}
+.sec3-newbox{
+	width: 100%;
+	height: auto;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.sec3-new{
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #323232;
+	margin: 30px auto;
+}
+.sec3-new-img{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+.sec3-new img{
+	width: 88%;
+	height: 85%;
+}
+.sec3-new-contain{
+	width: 55%;
+	float: left;
+	text-align: left;
+}
+.new-title{
+	width: 100%;
+	height: 30px;
+	color: #E3E3E3;
+	font-size: 18px;
+	line-height: 30px;
+}
+.new-contain{
+	width: 100%;
+	height: 50px;
+	font-size: 13px;
+	line-height: 26px;
+	color: #909090;
+	margin-top: 15px;
+}
+.new-date{
+	color: #8C8C8C;
+	font-size: 14px;
+	margin-top: 55px;
+}
+.new-date span{
+	color: #555;
+}
+.new-more{
+	width: 20%;
+	height: 160px;
+	line-height: 160px;
+	text-align: right;
+	color: #727272;
+	font-size: 16px;
+	cursor: pointer;
+	float: right;
+	padding-right: 1%;
+}
+.new-more span{
+	width: 30px;
+	height: 30px;
+	display: inline-block;	
+	background: url(../images/icon.png) no-repeat scroll  -12px -251px;
+	cursor: pointer;
+	transition:all 0.5s ease;
+	vertical-align: middle;
+}
+.new-more:hover span{
+	background-position:-12px -221px;
+}
+.fenye{
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	margin: 40px auto;
+	color: #FFF;
+	background: #3F3F3F;
+	cursor: pointer;
+}

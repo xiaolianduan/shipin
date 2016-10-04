@@ -1,0 +1,59 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background: #212121;
+}
+.topnavbox{
+	background: #212121;
+}
+.contain{
+	width: 90%;
+	height: 506px;
+	background: #212121;
+	position: relative;
+	margin:130px 5%;
+}
+.person-left{
+	width: 35%;
+	height: auto;
+	float: left;
+}
+.person-left img{
+	width: 100%;
+	height: auto;
+}
+.person-right{
+	width: 65%;
+	height: 506px;
+	float: right;
+	padding-left: 45px;
+}
+.sec2-title{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: #B4B4B4;
+	line-height: 24px;
+	float: right;
+	margin-bottom: 40px;
+}
+.sec2-title .sec2-left-title{
+	color: #fff;	
+	font-size: 26px;
+}
+.sec2-top{
+	margin-top: 50px;
+}
+.sec2-left-mintitle{
+	font-size: 15px;
+	margin-top: 5px
+}
+.sec2-contain{
+	color: #B3B3B3;
+	line-height: 24px;
+	font-size: 13px;
+}
+.sec2-contain p{
+	margin-top: 20px;
+}

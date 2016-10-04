@@ -1,0 +1,123 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background: #212121;
+}
+.topnavbox{
+	background: #212121;
+}
+.back{
+	width: 100%;
+	height: 380px;
+	background: url(../images/back3.jpg) no-repeat center;
+}
+.contain{
+	width: 84%;
+	height: auto;
+	background: #212121;
+	position: relative;
+	margin:0 8%;
+}
+.sec3-title{
+	width: 100%;
+	height: auto;
+	margin: 70px auto  30px;
+	text-align: center;
+	color: #B4B4B4;
+	line-height: 24px;
+}
+.sec3-title .sec3-left-title{
+	color: #fff;	
+	font-size: 26px;
+}
+.sec3-top{
+	margin-top: 50px;
+}
+.sec3-left-mintitle{
+	font-size: 15px;
+	margin-top: 5px
+}
+.sec3-content{
+	width: 100%;
+	height: 572px;
+	padding: 30px 0;
+}
+.sec3-son{
+	width: 32%;
+	height: 100%;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+	box-shadow: 0,0,1px,#666;
+	font-weight: bold;
+	transition:all 1s linear;	
+	margin-right: 
+}
+.sec3-son:hover{
+	border: 1px solid #555;
+	margin-top: -30px;
+}
+.sec3-son img{
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.sec3-more{
+	width: 100%;
+	height: 50px;
+	background: red;
+	position: absolute;
+	left: 0;right: 0;
+	margin: auto;
+	bottom: 160px;
+	background: #323232;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+	transition:all 1s linear;
+	cursor: pointer;
+}
+.sec3-son:hover .sec3-more{
+	bottom:210px;
+}
+.sec3-son:hover .sec3-about{
+	background: #444;
+}
+.sec3-about{
+	width: 100%;
+	height:210px;
+	position: absolute;
+	left: 0;right: 0;
+	margin: auto;
+	bottom: 0;
+	background: #323232;
+	padding:0 6%;
+	transition:all 0.5s linear;
+}
+.hengxian{
+	height: 1px;
+	width: 100%;
+	background: #2E2E2E;
+	margin: 20px auto;
+}
+.sec3-about .name{
+	font-size: 18px;
+	text-align: center;
+	color: #9A9A9A;
+	margin-top: 30px;
+}
+.sec3-about .job{
+	font-size: 13px;
+	color: #9A9A9A;
+	margin: 5px auto 15px;
+	text-align: center;
+}
+.introduce{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #9A9A9A;	
+	line-height: 24px;	
+}

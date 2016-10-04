@@ -1,0 +1,103 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background: #212121;
+}
+.topnavbox{
+	background: #212121;
+}
+.back{
+	width: 100%;
+	height: 380px;
+	background: url(../images/back3.jpg) no-repeat center;
+}
+.cai-contain{
+	width: 100%;
+	height: auto;
+}
+.cai-left{
+	width: 78%;
+	height: 650px;
+	float: left;
+	padding-top: 140px;
+	background: #111;
+}
+.cai-left-decration{
+	width: 100%;
+	height: 75px;
+	background: #111;
+}
+.cai-left img{
+	width: 100%;
+}
+.cai-right{
+	width: 22%;
+	height: auto;
+	float: left;
+	padding-top: 120px;
+}
+.cai-top{
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+	padding-left: 35px;
+}
+.cai-right .cai-title{
+	font-size: 26px;
+	color: white;
+}
+.cai-top .cai-min-tltle{
+	font-size: 14px;
+	margin-top: 5px;
+	color: #B4B4B4;
+	margin-bottom: 30px;
+}
+.cai-decration{
+	color: #6A6A6A;
+	font-size: 13px;
+	line-height: 24px;
+}
+.yuyue{
+	width: 80%;
+	height: 40px;
+	background: #474747;
+	color: #FFF;
+	text-align: center;
+	line-height: 40px;
+	border: none;
+	margin: 20px 0 40px;
+}
+.cai-bottom{
+	width: 100%;
+	height: auto;
+	padding-left: 35px;
+	padding-top: 30px;	
+	margin-bottom: 200px;	
+}
+.haixian,.toupan{
+	width: 46px;
+	height: 28px;
+	background: #474747;
+	color: #989898;
+	text-align: center;
+	line-height: 28px;
+	float: left; 
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.cai-bottom-sonbox li img{
+	width: 160px;
+	height: 104px;
+	background: red;
+	margin-top: 15px;
+}
+.cai-bottom-sonbox li .sonbox-title{
+	line-height: 22px;
+	color: #C6C6C6;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.cai-bottom-sonbox li .sonbox-contain{
+	margin-top: 2px;
+	color: #717171;
+	font-size: 12px;
+}

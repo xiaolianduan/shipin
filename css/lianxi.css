@@ -1,0 +1,86 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background: #212121;
+}
+.topnavbox{
+	background: #212121;
+}
+.back{
+	width: 100%;
+	height: 380px;
+	background: url(../images/back-lianxi.jpg) no-repeat center;
+}
+.contain{
+	width: 90%;
+	height: auto;
+	background: #212121;
+	position: relative;
+	margin:0 5%;
+}
+.sec3-title{
+	width: 100%;
+	height: auto;
+	margin: 70px auto  30px;
+	text-align: center;
+	color: #B4B4B4;
+	line-height: 24px;
+}
+.sec3-title .sec3-left-title{
+	color: #fff;	
+	font-size: 26px;
+}
+.sec3-top{
+	margin-top: 50px;
+}
+.sec3-left-mintitle{
+	font-size: 15px;
+	margin-top: 5px
+}
+.sec3-content{
+	width: 100%;
+	height: 500px;
+	padding: 30px 0;
+}
+.sec3-decration{
+	font-size: 14px;
+	margin-top: 50px;
+}
+.sec4-decration{
+	font-size: 14px;
+	line-height: 24px;	
+}
+.lianxifangshi{
+	width: 100%;
+	height: 110px;
+	background: url(../images/lianxifangshi.jpg) no-repeat center;
+}
+.sec3-gengxoan{
+	height: 1px;
+	width: 100%;
+	border-top: 1px dotted rgba(255, 255, 255, 0.2);
+	margin:40px 0;
+}
+.friend-link{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.friend-link li{
+	width: 50%;
+	height: auto;
+	text-align: left;
+	margin-bottom: 70px;
+}
+.friend-link-title{
+	font-size: 18px;
+	color: #B3B3B3;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.friend-link-connect{
+	color: #B3B3B3;
+    line-height: 24px;
+    font-size: 13px;
+}
